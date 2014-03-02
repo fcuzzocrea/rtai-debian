@@ -1,0 +1,13 @@
+--- a/base/arch/x86/defconfig
++++ b/base/arch/x86/defconfig
+@@ -84,8 +84,8 @@
+ #
+ # Add-ons
+ #
+-CONFIG_RTAI_COMEDI_LXRT=y
+-CONFIG_RTAI_COMEDI_DIR="/usr/comedi"
++# CONFIG_RTAI_COMEDI_LXRT=y
++# CONFIG_RTAI_COMEDI_DIR="/usr/comedi"
+ # CONFIG_RTAI_USE_COMEDI_LOCK is not set
+ # CONFIG_RTAI_CPLUSPLUS is not set
+ # CONFIG_RTAI_RTDM is not set

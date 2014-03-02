@@ -1,0 +1,13 @@
+--- a/base/arch/x86/defconfig
++++ b/base/arch/x86/defconfig
+@@ -19,8 +19,8 @@
+ CONFIG_RTAI_TESTSUITE=y
+ CONFIG_RTAI_COMPAT=y
+ # CONFIG_RTAI_EXTENDED is not set
+-CONFIG_RTAI_LXRT_NO_INLINE=y
+-# CONFIG_RTAI_LXRT_STATIC_INLINE is not set
++CONFIG_RTAI_LXRT_NO_INLINE=n
++CONFIG_RTAI_LXRT_STATIC_INLINE=y
+ 
+ #
+ # Machine (x86)
