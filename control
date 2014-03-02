@@ -27,7 +27,7 @@ Description: Real Time Application Interface
 Package: rtai-source
 Section: devel
 Architecture: i386 amd64 powerpc powerpcspe arm armel armeb
-Depends: make, debhelper (>= 4.0.0), python-rtai, ${misc:Depends}
+Depends: make, debhelper (>= 4.0.0), ${misc:Depends}
 Description: Real Time Application Interface (module source)
  RTAI is a realtime extension with a broad variety of services which
  make realtime programmers' lifes easier. Some of them are
